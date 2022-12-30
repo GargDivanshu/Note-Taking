@@ -25,7 +25,7 @@ const NoteList = ({ pin, note, handleAddNote, handleDelNote, handlePinNote}) => 
         <div className="note-list grid gap-2 mx-auto " >
 
 {
-         note.map((notes) => (           
+         note.map((notes) => (            
              <Note id={notes.id}
                    heading={notes.heading}
                    text={notes.text}
